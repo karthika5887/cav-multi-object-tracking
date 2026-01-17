@@ -17,6 +17,8 @@ runs/
 # Data and outputs (do NOT commit)
 data/
 outputs/
+# ...except the demo GIF
+!outputs/demo.gif
 
 # Python
 .venv/
