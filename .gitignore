@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ultralytics cache / weights (optional)
+runs/
+*.pt
+
+# Mac
+.DS_Store
+
+# Outputs (you can choose to keep or ignore; I suggest ignore for now)
+# outputs/
+# Data and outputs (do NOT commit)
+data/
+outputs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Ultralytics cache
+runs/
+*.pt
+
+# Mac
+.DS_Store
