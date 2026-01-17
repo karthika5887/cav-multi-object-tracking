@@ -1,5 +1,15 @@
 # 🚦 CAV Multi-Object Tracking (YOLO + Norfair)
 
+## 🎬 Demo
+
+![Tracking Demo](outputs/demo.gif)
+
+This GIF shows:
+- YOLO11 detections (bounding boxes)
+- Norfair multi-object tracking (persistent track IDs)
+- Simultaneous tracking of pedestrians and vehicles in a traffic scene.
+
+
 This repository implements a lightweight, modular perception pipeline for **multi-object detection and tracking in traffic scenes**, with a focus on **pedestrians and vehicles** for Connected and Automated Vehicles (CAV) and Intelligent Transportation Systems (ITS).
 
 The pipeline performs:
