@@ -67,7 +67,7 @@ Example JSON format:
     {"frame": 13, "x": 425.1, "y": 283.0, "cls_id": 0, "conf": 0.65, "bbox": [402,262,452,302]}
   ]
 }
-The same video was downloaded from kaggle sample traffic data
+#The same video was downloaded from kaggle sample traffic data
 cav-multi-object-tracking/
 │
 ├── scripts/
