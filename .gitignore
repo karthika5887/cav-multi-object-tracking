@@ -19,6 +19,8 @@ data/
 outputs/
 # ...except the demo GIF
 !outputs/demo.gif
+!outputs/compare_demo.gif
+
 
 # Python
 .venv/
