@@ -102,6 +102,7 @@ python3 scripts/run_tracking.py \
 ## 🔬 Tracker Comparison Demo (Norfair vs ByteTrack)
 
 ![Tracker Comparison](outputs/compare_demo.gif)
+The tracker comparison results can be found as gif in outputs/compare_demo.gif
 
 **What this shows:**
 - **Left:** Norfair (centroid-based online tracking)  
@@ -112,3 +113,11 @@ python3 scripts/run_tracking.py \
 - Norfair tends to be lighter and simpler but can be sensitive to occlusions.  
 - ByteTrack generally provides smoother ID continuity in dense traffic.
 
+## 📊 Qualitative Comparison (Summary)
+
+| Tracker | Strengths | Limitations | Best Use Case |
+|--------|-----------|-------------|---------------|
+| **Norfair** | Lightweight, transparent, easy to interpret | More sensitive to occlusion and missed detections | Real-time or embedded systems |
+| **ByteTrack** | Better ID continuity in dense traffic | Heavier, less transparent | Urban traffic, crowded scenes |
+
+Note: Both trackers used the same YOLO11 detector and identical confidence thresholds.
