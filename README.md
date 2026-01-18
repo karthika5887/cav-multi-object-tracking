@@ -99,4 +99,16 @@ python3 scripts/run_tracking.py \
   --out outputs/tracked.mp4 \
   --json_out outputs/tracked.tracks.json
 
+## 🔬 Tracker Comparison Demo (Norfair vs ByteTrack)
+
+![Tracker Comparison](outputs/compare_demo.gif)
+
+**What this shows:**
+- **Left:** Norfair (centroid-based online tracking)  
+- **Right:** Ultralytics ByteTrack (motion + confidence-based tracking)  
+- Same YOLO11 detector, same video, same confidence threshold.
+
+**Key qualitative differences you can observe:**
+- Norfair tends to be lighter and simpler but can be sensitive to occlusions.  
+- ByteTrack generally provides smoother ID continuity in dense traffic.
 
